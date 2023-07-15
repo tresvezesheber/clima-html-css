@@ -43,8 +43,14 @@ ul {
   gap: 40px;
 }
 
+.telas * {
+  color: #333;
+}
+
 .telas__galeria {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
