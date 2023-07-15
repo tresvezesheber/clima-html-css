@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
 
 :root {
   --bg-ensolarado: #01b8df;
@@ -15,7 +15,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -55,7 +55,7 @@ ul {
 .cabecalho,
 .principal,
 .previsoes {
-  padding: 1em;
+  padding: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,6 +66,7 @@ ul {
 }
 
 .cabecalho__titulo {
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -79,12 +80,13 @@ ul {
 }
 
 .principal__condicao {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
 .principal__imagem-condicao {
-  width: 200px;
+  margin-top: -40px;
+  width: 300px;
 }
 
 .principal__temperatura {
@@ -109,10 +111,11 @@ ul {
 
 .previsoes__dia {
   margin-right: auto;
+  font-weight: 400;
   font-size: 22px;
 }
 
 .previsoes__minimo-maxima {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
 }
