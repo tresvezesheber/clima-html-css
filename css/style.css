@@ -66,6 +66,10 @@ ul {
   background-color: var(--bg-neve);
 }
 
+.bg--chuva {
+  background-color: var(--bg-chuva);
+}
+
 .cabecalho,
 .principal,
 .previsoes {
