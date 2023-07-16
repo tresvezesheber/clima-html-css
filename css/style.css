@@ -5,7 +5,7 @@
   --bg-parciamente-nublado: #ffa218;
   --bg-neve: #6cb4d9;
   --bg-chuva: #013e6e;
-  --bg-nublado: #19b38a;
+  --bg-neblina: #19b38a;
   --bg-tempestade: #796f9f;
   --container-width: 86.5%;
 }
@@ -68,6 +68,10 @@ ul {
 
 .bg--chuva {
   background-color: var(--bg-chuva);
+}
+
+.bg--neblina {
+  background-color: var(--bg-neblina);
 }
 
 .cabecalho,
