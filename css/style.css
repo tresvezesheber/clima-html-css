@@ -74,6 +74,10 @@ ul {
   background-color: var(--bg-neblina);
 }
 
+.bg--tempestade {
+  background-color: var(--bg-tempestade);
+}
+
 .cabecalho,
 .principal,
 .previsoes {
