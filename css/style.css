@@ -62,6 +62,10 @@ ul {
   background-color: var(--bg-parciamente-nublado);
 }
 
+.bg--neve {
+  background-color: var(--bg-neve);
+}
+
 .cabecalho,
 .principal,
 .previsoes {
